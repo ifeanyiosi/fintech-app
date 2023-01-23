@@ -20,6 +20,7 @@ const Button = ({
   let bgColorHover;
   let padding;
   let fontSize;
+  let border;
 
   switch (variant) {
     case "primary":
@@ -32,6 +33,7 @@ const Button = ({
     case "secondary":
       textColor = "text-primary-10";
       textColorHover = "hover:text-[#0d60d8] ";
+      border = "[border:1px_solid_#0c1825]";
       bgColor = "bg-white";
       bgColorHover = "hover:bg-white";
       break;
@@ -63,7 +65,7 @@ const Button = ({
     default:
   }
 
-  const baseStyle = `${fontSize} ${padding} ${bgColor} ${textColor} ${bgColorHover} ${textColorHover} text-[18px] cursor-pointer font-Karla font-bold rounded-lg flex justify-center items-center transition duration-300`;
+  const baseStyle = `${fontSize} ${padding} ${bgColor} ${textColor} ${bgColorHover} ${textColorHover} ${border} text-[18px] cursor-pointer font-Karla font-bold rounded-lg flex justify-center items-center transition duration-300`;
 
   const style = `
    ${baseStyle}

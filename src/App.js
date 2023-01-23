@@ -2,7 +2,7 @@ import Welcome from "./pages/Welcome";
 
 function App() {
   return (
-    <div className="bg-red-500">
+    <div className="">
       <Welcome />
     </div>
   );
