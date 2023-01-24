@@ -8,7 +8,7 @@ import { Button } from "../../../components";
 
 const BuildSavings = () => {
   return (
-    <div className="h-screen bg-red-white px-10">
+    <div className="h-screen bg-white px-10">
       <div className="flex flex-col md:flex-row gap-8 items-center justify-center">
         <div className="flex flex-col px-8 items-start justify-center gap-4 max-w-[350px]">
           <span className="text-primary-8 text-[30px] font-bold">
